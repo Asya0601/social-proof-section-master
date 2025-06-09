@@ -385,9 +385,9 @@ body{
 
 @media(min-width:1600px){
     .main{
-        width: 65%;
+        width: 60%;
 
-        margin-inline: 17%;
+        margin-inline: 20%;
         margin-top: 8%;
 
         display: grid;
