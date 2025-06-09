@@ -17,7 +17,12 @@
 
   </head>
   <body>
-    <img src="images/bg-pattern-top-mobile.svg" alt="background image" class="bkg_img" id="top_bkg">
+    <picture>
+      <source class="bkg_img" id="top_bkg" srcset="images/bg-pattern-top-mobile.svg" media="(max-width:899px)">
+      <source class="bkg_img" id="top_bkg"  srcset="images/bg-pattern-top-desktop.svg" media="(min-width:900px)">
+      <img src="images/bg-pattern-top-mobile.svg" alt="background image" class="bkg_img" id="top_bkg">
+    </picture>
+    
 
     <main class="main">
       <section class="main_section titlePart">
@@ -115,7 +120,12 @@
       </section>
     </main>
 
-    <img src="images/bg-pattern-bottom-mobile.svg" alt="background image" class="bkg_img" id="bottom_bkg">
+    <picture>
+      <source class="bkg_img" id="bottom_bkg" srcset="images/bg-pattern-bottom-mobile.svg" media="(max-width:899px)">
+      <source class="bkg_img" id="bottom_bkg" srcset="images/bg-pattern-bottom-desktop.svg" media="(min-width:900px)">
+      <img src="images/bg-pattern-bottom-mobile.svg" alt="background image" class="bkg_img" id="bottom_bkg">
+    </picture>
+    
   
 
     <div class="attribution">
